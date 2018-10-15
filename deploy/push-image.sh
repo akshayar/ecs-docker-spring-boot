@@ -5,7 +5,7 @@ if [ $? -ne 0 ]
 then
  aws ecr create-repository --repository-name ${IMAGE_NAME}
 fi
-docker tag ${IMAGE_NAME} ${ECR_IMAGE_NAME}
+docker tag ${IMAGE_NAME} ${ECR_IMAGE_NAME}:latest
 docker push ${ECR_IMAGE_NAME}
 
 

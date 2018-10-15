@@ -1,0 +1,50 @@
+[
+ {
+    "ParameterKey": "StackName",
+    "ParameterValue": "learnecs"
+  },
+  {
+    "ParameterKey": "ServiceName",
+    "ParameterValue": "ecs-spb"
+  },
+  {
+    "ParameterKey": "ImageUrl",
+    "ParameterValue": "025506738155.dkr.ecr.us-east-1.amazonaws.com/arawa3/ecs-docker-springboot"
+  },
+  {
+    "ParameterKey": "ContainerPort",
+    "ParameterValue": "80"
+  },
+  {
+    "ParameterKey": "ContainerCpu",
+    "ParameterValue": "256"
+  },
+  {
+    "ParameterKey": "ContainerMemory",
+    "ParameterValue": "512"
+  },
+  {
+    "ParameterKey": "Path",
+    "ParameterValue": "/ecs-docker-springboot/*"
+  },
+  {
+    "ParameterKey": "HealthCheckPath",
+    "ParameterValue": "/ecs-docker-springboot/trade/ping"
+  },
+  {
+    "ParameterKey": "HealthCheckGracePeriodSeconds",
+    "ParameterValue": "60"
+  },
+  {
+    "ParameterKey": "Priority",
+    "ParameterValue": "10"
+  },
+  {
+    "ParameterKey": "DesiredCount",
+    "ParameterValue": "2"
+  },
+  {
+    "ParameterKey": "Role",
+    "ParameterValue": "akshaya-ecs"
+  }
+]

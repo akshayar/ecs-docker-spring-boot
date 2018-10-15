@@ -48,7 +48,7 @@
 					<repository>arawa3/${project.artifactId}</repository>
 					<buildArgs>
 						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
-						<PORT>8080</PORT>
+						<PORT>80</PORT>
 					</buildArgs>
 				</configuration>
 			</plugin>
